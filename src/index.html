@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meteorio - Get the best weather prediction</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,500,500i,600,600i,700,700i&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://bootswatch.com/4/pulse/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="./img/logo.png" alt="METEORIO" class="logo" />
+            </a>
+        </div>
+    </nav>
+    <section role="main">
+        <div class="container">
+            <div class="main-search">
+                <form class="form-inline justify-content-center" id="search-city-form">
+                    <div class="form-group">
+                        <input type="text" id="search-city-input" class="form-control form-control-lg" placeholder="Search Cities..."
+                            autofocus />
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="fas fa-search-location"></i> Search
+                    </button>
+                </form>
+            </div>
+            <div class="d-flex justify-content-center my-5" id="weather"></div>
+            <div class="d-flex justify-content-center">
+                <a class="btn btn-outline-primary" href="" id="search-again-btn">Search Another City</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

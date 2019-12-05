@@ -1,0 +1,24 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input, button {
+    border-radius: 0px !important;
+}
+
+.logo {
+    width: 9.375rem;
+    margin-top: -3.25rem;
+}
+
+.main-search {
+    margin-top: 30vh;
+}
+
+.loading {
+    height: 20vh;
+}
+
+.weather-card {
+    width: 30vw;
+}
